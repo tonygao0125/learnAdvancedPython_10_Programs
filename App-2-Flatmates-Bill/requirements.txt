@@ -1,3 +1,5 @@
+# can manually install all the below packages with "pip install -r requirements.txt"
+
 certifi==2020.12.5
 chardet==3.0.4
 filestack-python==3.2.1
