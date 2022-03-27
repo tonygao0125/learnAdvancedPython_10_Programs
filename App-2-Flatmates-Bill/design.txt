@@ -1,0 +1,17 @@
+Title: Flatmates Bill
+
+Description: An app that gets as input the amount of a bill for a particular period that the days that each of the
+flatmates stayed in the house for that period and returns how much each flatmate has to pay. It also generates a PDF
+report stating the names of the flatmates, the period and how much each of much had to pay.
+
+Objects (look at the nouns in the description):
+1. Bill:
+    - amount
+    - period
+2. Flatmate:
+    - name
+    - days_in_house
+    - pays(bill) - pay is a verb, as a method here; and it needs the bill amount, bill's going to be an instance of Bill
+3. PdfReport:
+    - filename
+    - generate(flatmate1, flatmate2, bill) - write a report method
